@@ -45,11 +45,11 @@ Put images and annotation files into "data_set" folder. The structure should be 
   ```
 ### Convert .bin and .rec file to images 
   ```
-  python load_images_from_bin.py
+  python data_set/load_images_from_bin.py
   ```
 ### Generate annotation file 
   ```
-  python anno_generation.py
+  python data_set/anno_generation.py
   ```
 ### Train MobileFaceNet
   ```
