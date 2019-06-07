@@ -55,6 +55,10 @@ Put images and annotation files into "data_set" folder. The structure should be 
   ```
   python Train.py
   ```
+### Instruction 
+  ```
+  MobileFaceNet_Training_Step_by_Step.ipynb
+  ```
 The training results are shown below:
 <table><tr>
 <td> <img src="images/ipy_pic/loss_train.png"  width="500" style="float: left;"> </td>
