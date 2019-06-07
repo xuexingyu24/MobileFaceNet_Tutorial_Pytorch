@@ -3,32 +3,32 @@ This repo illustrates how to implement MobileFaceNet and Arcface for face recogn
 
 ## Demo
 
-<img src="images/ipy_pic/output.gif"  width="600" style="float: left;">
+<img src="images/ipy_pic/output.gif"  width="700" style="float: left;">
 
 ## Test
-### Test Picture
+1. Test Picture
   ```
   python MTCNN_MobileFaceNet.py -img {image_path}
   ```
-### Take Picture for face database
-1. From cam
+2. Take Picture for Face Database
+* From cam
   ```
   python take_picture.py -n {name}
   ```   
-2. From photo
+* From photo
   ```
   python take_ID.py -i {image_path} -n {name}
   ```
-### Test Video
-1. From cam
+3. Test Video
+* From cam
   ```
   python cam_demo.py
   ```
-2. From video file
+* From video file
   ```
   python video_demo.py
   ```
-### Instruction 
+4. Instruction 
   ```
   MobileFaceNet_Step_by_Step.ipynb
   ```
@@ -43,19 +43,19 @@ Put images and annotation files into "data_set" folder. The structure should be 
               ---> faces_emore_images
               ---> LFW
   ```
-### Convert .bin and .rec file to images 
+1. Convert .bin and .rec file to images 
   ```
   python data_set/load_images_from_bin.py
   ```
-### Generate annotation file 
+2. Generate annotation file 
   ```
   python data_set/anno_generation.py
   ```
-### Train MobileFaceNet
+3. Train MobileFaceNet
   ```
   python Train.py
   ```
-### Instruction 
+4. Instruction 
   ```
   MobileFaceNet_Training_Step_by_Step.ipynb
   ```
