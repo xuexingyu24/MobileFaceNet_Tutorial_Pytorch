@@ -1,6 +1,9 @@
 # MobileFaceNet_Tutorial_Pytorch
-This repo illustrates how to implement MobileFaceNet and Arcface for face recognition task.  Don't forget to star the repo if it is helpful for your research !
+This repo illustrates how to implement MobileFaceNet and Arcface for face recognition task.  
+
 ## Demo
+
+<img src="images/ipy_pic/output.gif"  width="600" style="float: left;">
 
 ## Test
 ### Test Picture
@@ -70,3 +73,5 @@ Here is the evaluation result. 'Flip' the image can be applied to encode the emb
 |Flip            |  Cos      |  99.50  |   96.18  |  92.84   
 |UnFlip          |  L2       |  99.45  |   95.63  |  93.10   
 |UnFlip          |  Cos      |  99.45  |   95.65  |  93.10 
+
+Don't forget to star the repo if it is helpful for your research 
